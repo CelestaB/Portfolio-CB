@@ -396,7 +396,7 @@ a:hover {
 
 /* LR image*/
 .container1 {
-    position: relative;
+    position:relative;
     width: 50%;
     margin-left:20%;
 }
