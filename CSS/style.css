@@ -327,7 +327,7 @@ img {
     width: 50%;
     margin-right:20%;
 }
-  
+
 .image {
     display: block;
     width: 100%;
@@ -442,7 +442,216 @@ a:hover {
 
 
 
-.footer {
+
+
+.navbar {
+    background-color: #E2E2EE;
+    color: #C69E5D;
+    height: 18vh;
+    font-family: "Manrope";
+}
+
+
+.navbar-toggler{
+    color: #C69E5D;
+}
+
+.text-color{
+    color: #C69E5D;
+    font-family: "Manrope";
+}
+
+.text-muted {
+    color: #C69E5D;
+}
+
+.bg-color {
+    background-color: #E2E2EE;
+}
+
+.nav-item { 
+    color: #C69E5D;
+    font-family: "Manrope";
+
+}
+
+.nav-link:hover {
+    color: #CE8D22;
+
+}
+
+.navbar-toggler-icon{
+    color: #C69E5D;
+}
+
+.body {
+    background-color:  #263D23;
+    min-height: 110vh;
+    font-family:"Manrope";
+}
+
+
+.jumbotron {
+    background-color: #D3B7CC;
+    margin: auto;
+    
+}
+
+.gridN {
+    display:inline-grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+    grid-template-areas:
+    "logo textRight";
+    height:auto;
+}
+
+.textRight {
+    /* display: flex;
+    justify-content: end;
+    align-items: center; */
+    grid-area: textRight;
+    margin-left: 10px;
+    
+}
+
+.background {
+    background-color: #263D23;
+    padding: 20px;
+}
+
+.lead {
+    font-size: 2vw;
+}
+
+.textBody {
+    margin: 40px;
+    border: solid 2px #E2E2EE;
+    background-color: #263D23;
+    color: #D3B7CC;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #263D23;
+}
+
+
+.card-body {
+    text-align: center;
+}
+
+.cardX {
+    background-color: #D3B7CC;
+    font-family:"Manrope";
+    margin-bottom: 20px;
+
+}
+
+
+/*.container2 {
+    position: relative;
+    width: 50%;
+    margin-right:20%;
+
+}*/
+
+
+.logo{
+    grid-area: logo;
+    margin-left: 40px; 
+}
+
+.display-4 {
+    font-size: 5vw;
+}
+
+
+
+.btn {
+    background-color: #C69E5D;
+    border: #C69E5D;
+}
+
+.btn:hover {
+    background-color: #CE8D22;
+    border: #C69E5D;
+}
+
+.boxWidth {
+    margin:auto;
+    margin-top: 20px;
+    width: fit-content;
+    padding: 15px;
+    border: solid 2px #E2E2EE;
+    background-color: #263D23;
+    color: #D3B7CC;
+}
+
+
+
+.body1 {
+    background-color:  #263D23;
+    min-height: 150vh;
+    font-family:"Manrope";
+}
+.body2 {
+    background-color:  #263D23;
+    min-height: 100%;
+    font-family:"Manrope";
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "user define proto ";
+}
+
+.user {
+    grid-template-areas: user;
+
+}
+.define {
+    grid-template-areas: define;
+
+}
+.proto {
+    grid-template-areas: proto;
+
+
+}
+
+.card1 {
+    margin: 20px;
+    font-family: "Manrope";
+    background-color: #D3B7CC;
+}
+
+.carousel {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.carousel-item {
+    height: 100%;
+  }
+.carousel-item > img {
+    position: center;
+    top: 0;
+    left: 40%;
+    min-width: 50%;
+    height: 100%;
+  }
+
+
+
+  .footer {
     background-color:#E2E2EE;
     height: 150px;
     display: flex;
@@ -481,13 +690,36 @@ a:hover {
 
 
 
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .grid2 {
         display: initial;
     }
-}
 
+
+@media (max-width: 768px) {
+    .carousel-inner{
+        position: center;
+        padding: 10px;
+        min-width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .carousel-item {
+        position: center;
+        top: 0;
+        min-width: 50%;
+        height: 100%;
+      }
+}
+@media (max-width: 768px) {
+    .carousel{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+}}
 
 
 @media only screen and (max-width: 768px) {
